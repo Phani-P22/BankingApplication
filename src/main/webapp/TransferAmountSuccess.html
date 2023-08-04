@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Transaction Successful</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+			margin: 0;
+			padding: 0;
+			background-position: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background-image: url("images/image.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: relative;
+		}
+
+		body::before {
+			content: "";
+			background-image: inherit;
+			background-size: cover;
+			background-repeat: no-repeat;
+			filter: blur(2px);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+		.container {
+			max-width: 400px;
+			padding: 30px;
+			background-color: rgba(255, 255, 255, 0.7);
+			border-radius: 10px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+			text-align: center;
+		}
+
+		p {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+
+		a {
+			display: block;
+			color: #3366cc;
+			text-decoration: none;
+			font-weight: bold;
+			transition: color 0.3s;
+		}
+
+		a:hover {
+			color: #005580;
+		}
+	</style>
+</head>
+
+
+<body>
+
+	<div class="container">
+		<h1>Amount Transfer Successful!</h1>
+		<br><br>
+		<a href="home.jsp">Click here to Redirect</a>
+	</div>
+
+</body>
+
+</html>
